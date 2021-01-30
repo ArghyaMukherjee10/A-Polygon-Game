@@ -27,7 +27,7 @@ class Slingshot{
             var pointB = this.pointB
             push();
             strokeWeight(10);
-            stroke(50); 
+            stroke("green"); 
             line(pointA.x, pointA.y, this.pointB.x, this.pointB.y);  
             
             pop();
